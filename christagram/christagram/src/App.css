@@ -1,0 +1,388 @@
+
+
+
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container{
+  background: linear-gradient(45deg, rgb(223, 129, 145) 33%, lightpink 33%, rgb(201, 69, 91) 66%, pink 66%);
+
+  display: flex;
+  flex-direction: column;
+ width: 100%;
+
+}
+.title{
+  background: linear-gradient(45deg, rgb(223, 129, 145) 33%, rgb(201, 69, 91) 66%, pink 66%);
+  color: pink;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding: -10px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+
+}
+.container h1{
+  text-align: center;
+
+  
+}
+
+.form {
+  display: block;
+  margin-top: 20px;
+ margin-left: 30px;
+ border: 2px solid black;
+ border-radius: 30px;
+ margin-right: 30px;
+}
+
+.form input {
+  display: grid;
+  grid-template-columns: 6, 1fr;
+  color: #ff0000;
+  padding: 15px 60px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.form label {
+  font-size: x-large;
+}
+
+.form button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  color: #ff0000;
+  font-size: x-large;
+  border-radius: 20px;
+}
+.form p{
+  color:black;
+  font-size: large;
+
+}
+.heading{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10%;
+}
+
+ .header {
+  height: 20%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.head h1{
+  color: pink;
+}
+.header h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  white-space: pre-line; 
+}
+.signup{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content:space-evenly;
+
+}
+.phone img{
+  width: 100%;
+  height:100%;
+  border-radius: 30px;
+}
+
+.middle ul{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  list-style: none;
+ 
+
+}
+.middle li{
+  color: black;
+}
+.container-post{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content:space-evenly;
+}
+.postpic img{
+  width: 100%;
+  height:100%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+}
+.profile{
+  display: block;
+  margin-top: 20px;
+ margin-left: 30px;
+ 
+}
+
+.profile input {
+
+  color: #ff0000;
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.profile label {
+  font-size: x-large;
+  margin-left: 25px;
+}
+
+.btn button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  color: #ff0000;
+  font-size: x-large;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.input input{
+  padding: 10px 40px;
+}
+.input label{
+  font-size: x-large;
+  margin-left: 20px;
+
+}
+
+.loginform{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content:space-evenly;
+
+}
+
+.loginform input{
+  color: #ff0000;
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.loginform label {
+  font-size: x-large;
+  margin-left: 25px;
+}
+
+.loginform img {
+width: 80%;
+height: auto;
+border-radius: 30px;
+}
+.LOGIN{
+  width: 50%;
+  border: 2px solid rgb(7, 7, 70);
+  border-radius: 20px;
+}
+.LOGIN button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  color: #ff0000;
+  font-size: x-large;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+
+}
+.joker img{
+  width: 100%;
+  height: auto;
+  align-content: center;
+  border-radius: 30px;
+}
+
+.social{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color: rgb(226, 219, 220);
+ 
+}
+.social ul{
+  color: pink;
+  list-style: none;
+}
+.social a{
+  color:pink;
+}
+.social button {
+  margin-top: 20px;
+  padding: 20px 40px;
+  color: #ff0000;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 30%;
+  height: 10px;
+}
+
+.post-list img{
+border-radius: 30px;
+width:80%;
+height: auto;
+align-content: center;
+align-self: center;
+list-style: none;
+
+}
+.post-list{
+  justify-content: center;
+  text-align: center;
+color: black;
+font-size: x-large;
+list-style: none;
+width:50%;
+margin-left: 20%;
+/* background-color: white; */
+
+}
+.profiles{
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post-list button{
+  border: 1px solid pink;
+  padding: 2px 5px;
+}
+
+.postss{
+  border: 2px solid black;
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.smiley{
+  width: 10%;
+  height:10%;
+  border-radius: 30px;
+}
+
+.poster{
+  border: 2px solid pink;
+  border-radius: 30px;
+}
+.lowerpic{
+  display: flex;
+  border: 1px solid pink;
+  border-radius: 20px;
+}
+.tweets{
+  display: flex;
+  border: 1px solid pink;
+  border-radius: 20px;
+}
+.com{
+  width: 50px;
+  height:50px,
+}
+
+.all{
+  display: flex;
+}
+.data{
+  display: grid;
+
+}
+.proimg img{
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.user{
+  display: flex;
+  border: 2px solid pink;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+.user img {
+  border-radius: 50px;
+  width: 15%;
+  height: 50px;
+}
+.cont{
+  background-color:pink;
+}
+
+.user-profile{
+  background-color: bisque;
+  border-radius: 20px;
+  font-size: larger;
+}
+.user-profile img{
+  width: 30%;
+  height:50%;
+  border-radius: 30px;
+}
+
+.bioprofile{
+  border-bottom: solid  2px black;
+}
+.postprofile{
+  border-bottom: solid  2px black;
+
+}
+.notificationsprofile{
+  border-bottom: solid  2px black;
+
+}
+.followersprofile{
+  border-bottom: solid  2px black;
+
+}
+
+
+.follower-card{
+  background-color: pink;
+  color: pink;
+}
+.profile-image img{
+ 
+  width:50%;
+  height:auto;
+  border-top-left-radius:50% ;
+  border-top-right-radius: 50%;
+}
+.frame{
+  display: flex;
+  
+}
+.frame-profile{
+  width: 50%;
+}
+.main-profile{
+width:50%
+}
+.followers-profile{
+  width: 50%;
+}
